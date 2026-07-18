@@ -1,0 +1,21 @@
+# Circular Analyzer — Scraper Dependencies
+# ==========================================
+# Install: pip install -r requirements.txt
+
+# ── HTTP ───────────────────────────────────
+requests>=2.31.0                # NSE CSV endpoint + document downloads
+
+# ── Database ───────────────────────────────
+psycopg2-binary>=2.9.9          # PostgreSQL adapter (binary for easy install)
+
+# ── Kafka ──────────────────────────────────
+kafka-python>=2.0.2             # Kafka producer/consumer
+
+# ── Email Poller ───────────────────────────
+msal>=1.26.0                    # Microsoft Graph auth (O365 mailbox poll)
+
+# ── Config ─────────────────────────────────
+python-dotenv>=1.0.0            # Load .env files for local development
+
+# ── Scheduler ──────────────────────────────
+schedule>=1.2.0                 # Lightweight job scheduling

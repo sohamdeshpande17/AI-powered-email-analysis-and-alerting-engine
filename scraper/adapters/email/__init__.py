@@ -1,0 +1,1 @@
+# EMAIL source adapter package

@@ -1,0 +1,19 @@
+# ── LLM providers ───────────────────────────────────────
+anthropic>=0.40.0
+openai>=1.0.0
+
+# ── Core ────────────────────────────────────────────────
+python-dotenv>=1.0.0
+requests>=2.31.0
+
+# ── Attachment Text Extraction ─────────────────────────
+PyPDF2>=3.0.0
+python-docx>=1.0.0
+openpyxl>=3.1.0
+beautifulsoup4>=4.12.0
+
+# ── Kafka Consumer ─────────────────────────────────────
+kafka-python>=2.0.2
+
+# ── circular-processor DB writes (v3) ──────────────────
+psycopg2-binary>=2.9.9

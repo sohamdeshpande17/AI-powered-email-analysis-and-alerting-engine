@@ -1,0 +1,1 @@
+# NSE source adapter

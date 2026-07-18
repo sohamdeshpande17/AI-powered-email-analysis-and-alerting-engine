@@ -1,0 +1,16 @@
+{
+  "Servers": {
+    "1": {
+      "Name": "Circular Analyser (local)",
+      "Group": "Servers",
+      "Host": "postgres",
+      "Port": 5432,
+      "MaintenanceDB": "circular_analyser",
+      "Username": "postgres",
+      "Comment": "Phase 2 local PostgreSQL. Host 'postgres' is the compose service name on the shared Docker network.",
+      "ConnectionParameters": {
+        "sslmode": "prefer"
+      }
+    }
+  }
+}
